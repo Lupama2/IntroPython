@@ -1,0 +1,8 @@
+CLASE 0
+
+Es un lenguaje .... El código se ejecuta línea a línea. Si bien es más lento que otros al ejecutar, es más rápido de escribir en él. Para agilizar las cuentas, algunas librerías ejecutan parte del código en un lenguaje compilado y luego se devuelve el resultado a Python
+
+Es modular. Permite llamar a bibliotecas para resolver problemas particulares con funciones/rutinas, ya sean programadas por nosotros o de internet.
+
+Existen otras aplicaciones que tienen Python embebido. Por ej para diseño CAD o diseño gráfico. Se abre una terminal en el programa y nos permite automatizar tareas con python
+
