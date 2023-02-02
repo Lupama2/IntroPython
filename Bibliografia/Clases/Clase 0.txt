@@ -1,8 +1,16 @@
 CLASE 0
 
-Es un lenguaje .... El código se ejecuta línea a línea. Si bien es más lento que otros al ejecutar, es más rápido de escribir en él. Para agilizar las cuentas, algunas librerías ejecutan parte del código en un lenguaje compilado y luego se devuelve el resultado a Python
+Es un lenguaje interpretado. El código se ejecuta línea a línea. Si bien es más lento que otros al ejecutar, es más rápido de escribir en él. Para agilizar las cuentas, algunas librerías ejecutan parte del código en un lenguaje compilado y luego se devuelve el resultado a Python
 
 Es modular. Permite llamar a bibliotecas para resolver problemas particulares con funciones/rutinas, ya sean programadas por nosotros o de internet.
 
 Existen otras aplicaciones que tienen Python embebido. Por ej para diseño CAD o diseño gráfico. Se abre una terminal en el programa y nos permite automatizar tareas con python
+
+Se puede usar Python de forma interactiva (como lo usaba el profesor de Métodos numéricos para Fluidos con Octave) tecleando directamente python en la consola.
+
+Existe otra terminal aún más útil que se llama ipython y nos permite un uso más interactivo, dándonos consejos para escribir antes de que hayamos terminado de escribir. Es más o menos como el "autocompletar" de VSCode
+
+Otra forma es escribir directamente en un archivo todo el programa
+
+Con la función print se puede imprimir directamente en un file!
 
