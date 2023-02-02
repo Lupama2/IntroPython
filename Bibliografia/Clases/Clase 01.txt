@@ -1,0 +1,4 @@
+Clase 1
+
+Es mejor usar 4 espacios que tab. Cuando cambiamos de editor podemos tener problemas. Se puede configurar un editor de texto para que automáticamente al apretar tab se pongan 4 espacios y no tab
+
