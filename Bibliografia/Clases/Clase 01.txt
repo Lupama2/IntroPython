@@ -2,3 +2,21 @@ Clase 1
 
 Es mejor usar 4 espacios que tab. Cuando cambiamos de editor podemos tener problemas. Se puede configurar un editor de texto para que automáticamente al apretar tab se pongan 4 espacios y no tab
 
+Python es un lenguaje de tipeado dinámico. Define el tipo de una variable al asignarle un valor, es decir, no es necesario definir el tipo de variable de antemano
+
+Es indistinto usar comillas simples o comillas dobles
+
+Cuando definimos una variable, por ej a = 13, un lenguaje típico reserva un espacio de memoria suficientemente grande y nos da el puntero al valor. En Python es distinto, todos los objetos se describen con varios atributos (al menos 3): tipo (le dice cómo leer ese tipo de variable), valor e identidad ("nombre", ej "a" o "b"). Las variables, tmb llamadas objetos, tienen métodos o funciones, por ej, z1.conjugate me da la parte real del nro complejo z1. Automáticamente el primer argumento del método es la variable. Se llama "self" esto. Tmb hay datos o atributos (como en C) de una variable (que no son funciones), como z1.real
+
+Cómo sabemos todos los métodos de una variable? con z1. y "tab"
+
+Los métodos que en el help aparecen con __algo__ no hay que usarlos porque nada garantiza que de una versión a otra no vayan a cambiar.
+
+En nros complejos, "j" no puede aparecer sola porque si no Python no sabe si es un nro o una variable
+
+Las operaciones tienen precedencia, es decir, las operaciones matemáticas se hacen en el orden usual (primero la potencia,...)
+
+El problema de que se guarden 2 variables en el mismo espacio de memoria suele tener importancia, por ej, en arrays de millones de valores. De todos modos, cuando cambiamos el valor de uno de los arrays se crean y destruyen nuevos objetos. Generalmente esto no afecta a nuestro código, es + una curiosidad. Esto se hizo por implementación.
+
+El hecho de que imprima el resultado de la última línea de código es propio de que trabajamos en forma interactiva. Lo hace el entorno
+
