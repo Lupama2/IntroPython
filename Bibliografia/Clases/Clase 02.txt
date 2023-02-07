@@ -1,0 +1,39 @@
+Clase 02
+Comentarios grales (que no están en las notas de la materia)
+
+Python usa la codificación UTF8 y por eso podemos usar, por ejemplo, subíndices, supraíndices, acentos, etc. Tmb podríamos usar esta codificación para nombrar variables, aunque es poco común. Se suele usar directamente ASCII
+
+En la función bin(), "0b" significa que es binario
+
+La lógica de las operaciones/funciones de las librerías son decisión del programador. "Es más probable que definirlo así sea útil"
+
+Los métodos son funciones que se aplican a su "dueño". Un método es una función que está definida junto con el tipo de objeto.
+
+Sea el método find(sub[,start[],end]), la notación significa que start es opcional y que end tmb lo es, pero solo se puede poner si se coloca start
+
+
+
+En Listas, la asignación entre listas no copia todos los datos, sólo es una nueva referencia. Esto se hace por razones de eficiencia.
+¿Por qué se hace esto? Con los nros y los strings esto no ocurre porque los nros son inmutables. Para cambiarlo hay que tirar el valor anterior y asignar el nuebo. Mientras que las listas sí se pueden cambiar los valores de cada elemento. No se está creando una nueva lista. Para copiar la lista hay que usar el método .copy(). En este caso, si uno de los elementos de la lista fuera una lista, al usar copy() el elemento lista sigue siendo el mismo que antes!. Para eso hay que usar deep_copy().
+
+Hacer coef*lista no devuelve la lista con cada nro multiplicada por su elemento, sino que devuelve lista concatenada coef's veces
+
+Así como str es el tipo string, list es el tipo lista
+
+Hay métodos para listas que crean una nueva lista y otros que modifican la variable. Hay métodos más caros que otros, por ej append o insert. Usar append es equivalente a sumar listas, con la contra de que estamos creando una nueva lista.
+
+Las tuplas son más eficientes de trabajar que las listas. Un uso comús es para la asignación simultánea a múltiples variables
+a, b, c = (1,3,5)
+
+Los range son objetos!. Con range() se devuelve algo que es "casi una lista". ¿Por qué no es una lista? Si hago range(3e8) no se crea una lista de ese tamaño, sino que cada vez que lo llamo me devuelve un valor diferente (el siguiente). Se puede convertir a una lisa con list(range())
+
+Para definir una lista usando "Comprensión de listas" la notación es similar a la de matemática para definir un conjunto.
+
+Módulos
+Para que el interpreter de python sepa dónde está el módulo, tiene que estar en la carpeta en la que estamos trabajando o en lugares estándard. Si no está allí, hay que decirle dónde está
+
+El módulo math no está hecho para trabajar con nros complejos, para eso se usa cmath. Aunque usar este módulo quizás implique cuentas más complicadas ((y quizás mayor tiempo de cómputo))
+
+
+
+
