@@ -38,7 +38,6 @@ s_lista = s.split(sep = "\n")
 #Busco el máximo
 print("\n",max(s_lista, key = len), " : longitud=",len(max(s_lista, key = len)))
 
-
 #ítem 3
 nuevo_string = s[:5] + s[-5:]
 print(nuevo_string)
