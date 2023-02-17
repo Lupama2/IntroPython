@@ -1,0 +1,5 @@
+Coments después de la clase 5
+Hacer ejercicio de python a entregar
+
+Buscar qué hace la función
+!cat tmp.txt
