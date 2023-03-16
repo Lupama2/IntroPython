@@ -1,5 +1,9 @@
 Coments después de la clase 5
 Hacer ejercicio de python a entregar
 
+
+Hacer los ejercicios de la clase 11 y 12
+
+
 Buscar qué hace la función
 !cat tmp.txt
